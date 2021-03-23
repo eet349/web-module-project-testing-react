@@ -1,17 +1,10 @@
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import Display from '../Display';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+test('Renders without props.', () => {
+	render(<Display />);
+});
 
 ///Tasks:
 //1. Add in nessisary imports and values to establish the testing suite.
